@@ -487,6 +487,35 @@
   .bio {
     margin: 0 auto 4rem auto;
     max-width: 65ch;
+    font-family: "Inter", sans-serif;
+  }
+
+  .about--upper {
+    margin: 100px 0;
+    width: 100%;
+    display: flex;
+    align-content: center;
+  }
+  
+
+  .about--upper--left {
+    width: 49%;
+    display: flex;
+    align-content: center;
+  }
+  
+  .about--upper--right {
+    width: 49%;
+    /* float: right; */
+    display: flex;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .about--upper--right img {
+    width: 80%;
+    border-radius: 70px 10px 70px 10px;
   }
   
   /* Contact Styles */
